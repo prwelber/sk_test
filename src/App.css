@@ -1,0 +1,52 @@
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+
+.header-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.inventory-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.form-input-text {
+  width: 50%;
+}
+
+.form-input-other {
+  width: 25%;
+  display: inline-block;
+  padding-right: 1%;
+}
+.form-input-inline {
+  display: inline;
+}
+
+.add-item-holder {
+  border: 1px solid gray;
+  padding: 10px;
+}
+
+.close-add-item {
+  position: relative;
+  top: -3em;
+  left: 95%;
+  cursor: pointer;
+}
+
+.fa {
+  padding-left: 3px;
+}
+
+.sortable {
+  cursor: pointer;
+}
